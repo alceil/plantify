@@ -1,0 +1,6 @@
+.wrapper{
+    display:grid;
+      justify-content:center;
+      grid-template-columns:repeat(auto-fit,minmax(12rem,16rem));
+    gap:2rem;
+  }
