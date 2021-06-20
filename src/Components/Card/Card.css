@@ -3,7 +3,7 @@
     box-shadow:0 2px 20px;
       display:flex;
     flex-direction:column;
-    justify-content:space-between;
+    /* justify-content:space-between; */
     cursor: pointer;
     transform: 200ms ease-in;
   }
@@ -16,7 +16,11 @@ object-fit: cover;
   .class_title{
       color: green;
       padding: 1rem;
-
+  }
+  .buttonStyle{
+    padding: 1rem;
+    color: red;
+    border: border 2px red;
   }
 
   .card:hover{
